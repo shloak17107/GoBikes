@@ -7,66 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A202EF9C21887BE9008E77B9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202EF9B21887BE9008E77B9 /* HomeViewController.swift */; };
+		A202EF9E21887C06008E77B9 /* VehiclesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202EF9D21887C06008E77B9 /* VehiclesViewController.swift */; };
+		A202EFA021887C0C008E77B9 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202EF9F21887C0C008E77B9 /* CartViewController.swift */; };
+		A202EFA221887C16008E77B9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202EFA121887C16008E77B9 /* ProfileViewController.swift */; };
 		A20F8297216D348F00EDE977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20F8296216D348F00EDE977 /* AppDelegate.swift */; };
-		A20F8299216D348F00EDE977 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20F8298216D348F00EDE977 /* FirstViewController.swift */; };
-		A20F829B216D348F00EDE977 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20F829A216D348F00EDE977 /* SecondViewController.swift */; };
 		A20F829E216D348F00EDE977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20F829C216D348F00EDE977 /* Main.storyboard */; };
 		A20F82A0216D349100EDE977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20F829F216D349100EDE977 /* Assets.xcassets */; };
 		A20F82A3216D349100EDE977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20F82A1216D349100EDE977 /* LaunchScreen.storyboard */; };
-		A20F82AE216D349100EDE977 /* GoBikesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20F82AD216D349100EDE977 /* GoBikesTests.swift */; };
-		A20F82B9216D349100EDE977 /* GoBikesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20F82B8216D349100EDE977 /* GoBikesUITests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A20F82AA216D349100EDE977 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A20F828B216D348F00EDE977 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A20F8292216D348F00EDE977;
-			remoteInfo = GoBikes;
-		};
-		A20F82B5216D349100EDE977 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A20F828B216D348F00EDE977 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A20F8292216D348F00EDE977;
-			remoteInfo = GoBikes;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		A202EF9B21887BE9008E77B9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A202EF9D21887C06008E77B9 /* VehiclesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesViewController.swift; sourceTree = "<group>"; };
+		A202EF9F21887C0C008E77B9 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		A202EFA121887C16008E77B9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A20F8293216D348F00EDE977 /* GoBikes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoBikes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20F8296216D348F00EDE977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A20F8298216D348F00EDE977 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A20F829A216D348F00EDE977 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A20F829D216D348F00EDE977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A20F829F216D349100EDE977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A20F82A2216D349100EDE977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A20F82A4216D349100EDE977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A20F82A9216D349100EDE977 /* GoBikesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoBikesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A20F82AD216D349100EDE977 /* GoBikesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoBikesTests.swift; sourceTree = "<group>"; };
-		A20F82AF216D349100EDE977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A20F82B4216D349100EDE977 /* GoBikesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoBikesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A20F82B8216D349100EDE977 /* GoBikesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoBikesUITests.swift; sourceTree = "<group>"; };
-		A20F82BA216D349100EDE977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A20F8290216D348F00EDE977 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A20F82A6216D349100EDE977 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A20F82B1216D349100EDE977 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				A20F8295216D348F00EDE977 /* GoBikes */,
-				A20F82AC216D349100EDE977 /* GoBikesTests */,
-				A20F82B7216D349100EDE977 /* GoBikesUITests */,
 				A20F8294216D348F00EDE977 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				A20F8293216D348F00EDE977 /* GoBikes.app */,
-				A20F82A9216D349100EDE977 /* GoBikesTests.xctest */,
-				A20F82B4216D349100EDE977 /* GoBikesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,32 +61,16 @@
 			isa = PBXGroup;
 			children = (
 				A20F8296216D348F00EDE977 /* AppDelegate.swift */,
-				A20F8298216D348F00EDE977 /* FirstViewController.swift */,
-				A20F829A216D348F00EDE977 /* SecondViewController.swift */,
 				A20F829C216D348F00EDE977 /* Main.storyboard */,
+				A202EF9B21887BE9008E77B9 /* HomeViewController.swift */,
+				A202EF9D21887C06008E77B9 /* VehiclesViewController.swift */,
+				A202EF9F21887C0C008E77B9 /* CartViewController.swift */,
+				A202EFA121887C16008E77B9 /* ProfileViewController.swift */,
 				A20F829F216D349100EDE977 /* Assets.xcassets */,
 				A20F82A1216D349100EDE977 /* LaunchScreen.storyboard */,
 				A20F82A4216D349100EDE977 /* Info.plist */,
 			);
 			path = GoBikes;
-			sourceTree = "<group>";
-		};
-		A20F82AC216D349100EDE977 /* GoBikesTests */ = {
-			isa = PBXGroup;
-			children = (
-				A20F82AD216D349100EDE977 /* GoBikesTests.swift */,
-				A20F82AF216D349100EDE977 /* Info.plist */,
-			);
-			path = GoBikesTests;
-			sourceTree = "<group>";
-		};
-		A20F82B7216D349100EDE977 /* GoBikesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A20F82B8216D349100EDE977 /* GoBikesUITests.swift */,
-				A20F82BA216D349100EDE977 /* Info.plist */,
-			);
-			path = GoBikesUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,42 +93,6 @@
 			productReference = A20F8293216D348F00EDE977 /* GoBikes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A20F82A8216D349100EDE977 /* GoBikesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A20F82C0216D349100EDE977 /* Build configuration list for PBXNativeTarget "GoBikesTests" */;
-			buildPhases = (
-				A20F82A5216D349100EDE977 /* Sources */,
-				A20F82A6216D349100EDE977 /* Frameworks */,
-				A20F82A7216D349100EDE977 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A20F82AB216D349100EDE977 /* PBXTargetDependency */,
-			);
-			name = GoBikesTests;
-			productName = GoBikesTests;
-			productReference = A20F82A9216D349100EDE977 /* GoBikesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A20F82B3216D349100EDE977 /* GoBikesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A20F82C3216D349100EDE977 /* Build configuration list for PBXNativeTarget "GoBikesUITests" */;
-			buildPhases = (
-				A20F82B0216D349100EDE977 /* Sources */,
-				A20F82B1216D349100EDE977 /* Frameworks */,
-				A20F82B2216D349100EDE977 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A20F82B6216D349100EDE977 /* PBXTargetDependency */,
-			);
-			name = GoBikesUITests;
-			productName = GoBikesUITests;
-			productReference = A20F82B4216D349100EDE977 /* GoBikesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,14 +105,6 @@
 				TargetAttributes = {
 					A20F8292216D348F00EDE977 = {
 						CreatedOnToolsVersion = 10.0;
-					};
-					A20F82A8216D349100EDE977 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = A20F8292216D348F00EDE977;
-					};
-					A20F82B3216D349100EDE977 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = A20F8292216D348F00EDE977;
 					};
 				};
 			};
@@ -221,8 +122,6 @@
 			projectRoot = "";
 			targets = (
 				A20F8292216D348F00EDE977 /* GoBikes */,
-				A20F82A8216D349100EDE977 /* GoBikesTests */,
-				A20F82B3216D349100EDE977 /* GoBikesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +137,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A20F82A7216D349100EDE977 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A20F82B2216D349100EDE977 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,42 +144,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A20F829B216D348F00EDE977 /* SecondViewController.swift in Sources */,
+				A202EFA021887C0C008E77B9 /* CartViewController.swift in Sources */,
+				A202EF9E21887C06008E77B9 /* VehiclesViewController.swift in Sources */,
+				A202EFA221887C16008E77B9 /* ProfileViewController.swift in Sources */,
 				A20F8297216D348F00EDE977 /* AppDelegate.swift in Sources */,
-				A20F8299216D348F00EDE977 /* FirstViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A20F82A5216D349100EDE977 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A20F82AE216D349100EDE977 /* GoBikesTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A20F82B0216D349100EDE977 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A20F82B9216D349100EDE977 /* GoBikesUITests.swift in Sources */,
+				A202EF9C21887BE9008E77B9 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A20F82AB216D349100EDE977 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A20F8292216D348F00EDE977 /* GoBikes */;
-			targetProxy = A20F82AA216D349100EDE977 /* PBXContainerItemProxy */;
-		};
-		A20F82B6216D349100EDE977 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A20F8292216D348F00EDE977 /* GoBikes */;
-			targetProxy = A20F82B5216D349100EDE977 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A20F829C216D348F00EDE977 /* Main.storyboard */ = {
@@ -468,88 +326,6 @@
 			};
 			name = Release;
 		};
-		A20F82C1216D349100EDE977 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T368XXYF3D;
-				INFOPLIST_FILE = GoBikesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gobikes.GoBikesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoBikes.app/GoBikes";
-			};
-			name = Debug;
-		};
-		A20F82C2216D349100EDE977 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T368XXYF3D;
-				INFOPLIST_FILE = GoBikesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gobikes.GoBikesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoBikes.app/GoBikes";
-			};
-			name = Release;
-		};
-		A20F82C4216D349100EDE977 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T368XXYF3D;
-				INFOPLIST_FILE = GoBikesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gobikes.GoBikesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GoBikes;
-			};
-			name = Debug;
-		};
-		A20F82C5216D349100EDE977 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T368XXYF3D;
-				INFOPLIST_FILE = GoBikesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gobikes.GoBikesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GoBikes;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -567,24 +343,6 @@
 			buildConfigurations = (
 				A20F82BE216D349100EDE977 /* Debug */,
 				A20F82BF216D349100EDE977 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A20F82C0216D349100EDE977 /* Build configuration list for PBXNativeTarget "GoBikesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A20F82C1216D349100EDE977 /* Debug */,
-				A20F82C2216D349100EDE977 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A20F82C3216D349100EDE977 /* Build configuration list for PBXNativeTarget "GoBikesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A20F82C4216D349100EDE977 /* Debug */,
-				A20F82C5216D349100EDE977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
