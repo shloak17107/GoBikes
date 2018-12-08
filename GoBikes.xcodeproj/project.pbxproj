@@ -15,6 +15,7 @@
 		A20F829E216D348F00EDE977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20F829C216D348F00EDE977 /* Main.storyboard */; };
 		A20F82A0216D349100EDE977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20F829F216D349100EDE977 /* Assets.xcassets */; };
 		A20F82A3216D349100EDE977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20F82A1216D349100EDE977 /* LaunchScreen.storyboard */; };
+		A2B5D68321B500ED004528FC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B5D68221B500ED004528FC /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A20F829F216D349100EDE977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A20F82A2216D349100EDE977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A20F82A4216D349100EDE977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B5D68221B500ED004528FC /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				A202EF9F21887C0C008E77B9 /* CartViewController.swift */,
 				A202EFA121887C16008E77B9 /* ProfileViewController.swift */,
 				A20F829F216D349100EDE977 /* Assets.xcassets */,
+				A2B5D68221B500ED004528FC /* CollectionViewCell.swift */,
 				A20F82A1216D349100EDE977 /* LaunchScreen.storyboard */,
 				A20F82A4216D349100EDE977 /* Info.plist */,
 			);
@@ -146,6 +149,7 @@
 			files = (
 				A202EFA021887C0C008E77B9 /* CartViewController.swift in Sources */,
 				A202EF9E21887C06008E77B9 /* VehiclesViewController.swift in Sources */,
+				A2B5D68321B500ED004528FC /* CollectionViewCell.swift in Sources */,
 				A202EFA221887C16008E77B9 /* ProfileViewController.swift in Sources */,
 				A20F8297216D348F00EDE977 /* AppDelegate.swift in Sources */,
 				A202EF9C21887BE9008E77B9 /* HomeViewController.swift in Sources */,
@@ -296,6 +300,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T368XXYF3D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoBikes",
+				);
 				INFOPLIST_FILE = GoBikes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -314,6 +322,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T368XXYF3D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoBikes",
+				);
 				INFOPLIST_FILE = GoBikes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
