@@ -15,6 +15,8 @@ class CartViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func notificationsButton(_ sender: Any) {
+        performSegue(withIdentifier: "notificationsSegue3", sender: self)
+    }
+    
 }
-

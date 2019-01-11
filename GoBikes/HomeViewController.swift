@@ -79,6 +79,10 @@ class HomeViewController: UIViewController {
     @IBAction func dropClick(_ sender: Any) {
         dropTextField.becomeFirstResponder()
     }
-
+    
+    @IBAction func notificationsButton(_ sender: Any) {
+        performSegue(withIdentifier: "notificationsSegue1", sender: self)
+    }
+    
 }
 

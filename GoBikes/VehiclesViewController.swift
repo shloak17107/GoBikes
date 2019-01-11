@@ -61,5 +61,8 @@ class VehiclesViewController: UIViewController, UICollectionViewDataSource, UICo
         return cell
     }
 
-}
+    @IBAction func notificationsButton(_ sender: Any) {
+        performSegue(withIdentifier: "notificationsSegue2", sender: self)
+    }
 
+}

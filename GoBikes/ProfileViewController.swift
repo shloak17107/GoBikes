@@ -15,6 +15,8 @@ class ProfileViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func notificationsButton(_ sender: Any) {
+        performSegue(withIdentifier: "notificationsSegue4", sender: self)
+    }
+    
 }
-
