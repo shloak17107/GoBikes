@@ -17,6 +17,7 @@
 		A20F82A3216D349100EDE977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20F82A1216D349100EDE977 /* LaunchScreen.storyboard */; };
 		A2A3F96221E78FED00435053 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A3F96121E78FED00435053 /* NotificationsViewController.swift */; };
 		A2B5D68321B500ED004528FC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B5D68221B500ED004528FC /* CollectionViewCell.swift */; };
+		A2C05AC421EB18CE009DEBE6 /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C05AC321EB18CE009DEBE6 /* Bike.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A20F82A4216D349100EDE977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2A3F96121E78FED00435053 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		A2B5D68221B500ED004528FC /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A2C05AC321EB18CE009DEBE6 /* Bike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				A2A3F96121E78FED00435053 /* NotificationsViewController.swift */,
 				A202EF9B21887BE9008E77B9 /* HomeViewController.swift */,
 				A202EF9D21887C06008E77B9 /* VehiclesViewController.swift */,
+				A2C05AC321EB18CE009DEBE6 /* Bike.swift */,
 				A202EF9F21887C0C008E77B9 /* CartViewController.swift */,
 				A202EFA121887C16008E77B9 /* ProfileViewController.swift */,
 				A20F829F216D349100EDE977 /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C05AC421EB18CE009DEBE6 /* Bike.swift in Sources */,
 				A202EFA021887C0C008E77B9 /* CartViewController.swift in Sources */,
 				A202EF9E21887C06008E77B9 /* VehiclesViewController.swift in Sources */,
 				A2B5D68321B500ED004528FC /* CollectionViewCell.swift in Sources */,

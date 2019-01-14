@@ -10,37 +10,43 @@ import UIKit
 
 class VehiclesViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
 
-    let bikeName = ["Bajaj Avenger", "Honda Activa", "KTM Duke", "Yamaha R15", "Royal Enfield Classic 350"]
-    
-    let bikeImage = [UIImage(named: "bajajavenger"), UIImage(named: "hondaactiva"), UIImage(named: "ktmduke"), UIImage(named: "yamahar15"), UIImage(named: "royalenfieldclassic350")]
-    
-    let weekdayPrice = ["450", "450", "550", "550", "650"]
-    
-    let weekendPrice = ["550", "550", "650", "650", "750"]
-    
-    let bikeRating = ["4.7", "4.7", "4.8", "4.5", "4.4"]
-    
-    let bikeMileage = [28.7, 25.7, 24.7, 29.7, 48.7]
+    var bikes = Bike.bikes
+    @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        self.collectionView!.reloadData()
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return bikeName.count
+        return bikes.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
         
-        cell.bikeName.text = bikeName[indexPath.row]
-        cell.bikeImage.image = bikeImage[indexPath.row]
-        cell.bikeRating.text = bikeRating[indexPath.row]
-        cell.weekdayPrice.text = weekdayPrice[indexPath.row]
-        cell.weekendPrice.text = weekendPrice[indexPath.row]
-        cell.mileage.text = "Mileage: \(bikeMileage[indexPath.row]) Km/L"
+        cell.bikeName.text = bikes[indexPath.row].name
+        cell.bikeImage.image = bikes[indexPath.row].image
+        cell.bikeRating.text = "\(bikes[indexPath.row].rating)"
+        cell.weekdayPrice.text = "\(bikes[indexPath.row].weekdayPrice)"
+        cell.weekendPrice.text = "\(bikes[indexPath.row].weekendPrice)"
+        cell.mileage.text = "Mileage: \(bikes[indexPath.row].mileage) Km/L"
         cell.cartSelected.isHidden = true
+        
+        //Avoids cart buttons from dissappearing when scrolling
+        if (bikes[indexPath.row].inCart == 0) {
+            cell.cartUnselected.isHidden = false
+            cell.cartSelected.isHidden = true
+            cell.quantity.text = "\(0)"
+        }
+        else {
+            cell.cartUnselected.isHidden = true
+            cell.cartSelected.isHidden = false
+            cell.quantity.text = "\(bikes[indexPath.row].inCart)"
+        }
         
         //This creates the shadows and modifies the cards a little bit
         cell.contentView.layer.cornerRadius = 4.0

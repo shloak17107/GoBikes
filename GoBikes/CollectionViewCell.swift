@@ -41,11 +41,23 @@ class CollectionViewCell: UICollectionViewCell {
         cartUnselected.isHidden = true
         cartSelected.isHidden = false
         quantity.text = "\(1)"
+        
+        for bike in Bike.bikes {
+            if (bike.name == bikeName.text) {
+                bike.inCart = 1
+            }
+        }
     }
     
     @IBAction func increaseTapped(increase: UIButton){
         if let str: String = quantity.text, let i = Int(str) {
             quantity.text = "\(i+1)"
+        }
+        
+        for bike in Bike.bikes {
+            if (bike.name == bikeName.text) {
+                bike.inCart += 1
+            }
         }
     }
 
@@ -57,6 +69,12 @@ class CollectionViewCell: UICollectionViewCell {
             else {
                 cartUnselected.isHidden = false
                 cartSelected.isHidden = true
+            }
+        }
+        
+        for bike in Bike.bikes {
+            if (bike.name == bikeName.text) {
+                bike.inCart -= 1
             }
         }
     }
