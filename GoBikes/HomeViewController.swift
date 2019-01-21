@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import SideMenu
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var pickupView: UIView!
     @IBOutlet weak var pickupButton: UIButton!
     @IBOutlet weak var pickupTextField: UITextField!
@@ -23,6 +25,18 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // For image animation
+        let images = [UIImage(named: "bajajavenger"), UIImage(named: "hondaactiva"), UIImage(named: "ktmduke"), UIImage(named: "yamahar15"), UIImage(named: "royalenfieldclassic350")]
+        let animatedImage = UIImage.animatedImage(with: images as! [UIImage], duration: 5.0)
+        imageView.image = animatedImage
+        
+        // For side menu
+        SideMenuManager.default.menuFadeStatusBar = false
+        SideMenuManager.default.menuPresentMode = .menuSlideIn
+        SideMenuManager.default.menuWidth = max(round(min((UIScreen.main.bounds.width), (UIScreen.main.bounds.height)) * 0.6), 220)
+        SideMenuManager.default.menuAnimationFadeStrength = 0.5
+        
+        // For date selectors
         datePicker = UIDatePicker()
         datePicker?.datePickerMode = .dateAndTime
         datePicker?.addTarget(self, action: #selector(HomeViewController.dateChanged(datePicker:)), for: .valueChanged)
@@ -78,6 +92,10 @@ class HomeViewController: UIViewController {
     
     @IBAction func dropClick(_ sender: Any) {
         dropTextField.becomeFirstResponder()
+    }
+    
+    @IBAction func seeBikesClick(_ sender: Any) {
+        self.tabBarController?.selectedIndex = 1
     }
     
     @IBAction func notificationsButton(_ sender: Any) {

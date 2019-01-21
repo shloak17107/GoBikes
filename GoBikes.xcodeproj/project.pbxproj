@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B1723A852915320FBCD343F /* Pods_GoBikes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F04E32A78704817A9A1C6FB /* Pods_GoBikes.framework */; };
 		A202EF9C21887BE9008E77B9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202EF9B21887BE9008E77B9 /* HomeViewController.swift */; };
 		A202EF9E21887C06008E77B9 /* VehiclesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202EF9D21887C06008E77B9 /* VehiclesViewController.swift */; };
 		A202EFA021887C0C008E77B9 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202EF9F21887C0C008E77B9 /* CartViewController.swift */; };
@@ -15,12 +16,16 @@
 		A20F829E216D348F00EDE977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20F829C216D348F00EDE977 /* Main.storyboard */; };
 		A20F82A0216D349100EDE977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20F829F216D349100EDE977 /* Assets.xcassets */; };
 		A20F82A3216D349100EDE977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20F82A1216D349100EDE977 /* LaunchScreen.storyboard */; };
+		A23710EE21F5C8FE007EE41D /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23710ED21F5C8FE007EE41D /* SideMenuViewController.swift */; };
 		A2A3F96221E78FED00435053 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A3F96121E78FED00435053 /* NotificationsViewController.swift */; };
 		A2B5D68321B500ED004528FC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B5D68221B500ED004528FC /* CollectionViewCell.swift */; };
 		A2C05AC421EB18CE009DEBE6 /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C05AC321EB18CE009DEBE6 /* Bike.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		074298DF44D1322967F1A07D /* Pods-GoBikes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoBikes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoBikes/Pods-GoBikes.debug.xcconfig"; sourceTree = "<group>"; };
+		21A7871BDAF07E10236637CB /* Pods-GoBikes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoBikes.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoBikes/Pods-GoBikes.release.xcconfig"; sourceTree = "<group>"; };
+		9F04E32A78704817A9A1C6FB /* Pods_GoBikes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoBikes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A202EF9B21887BE9008E77B9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A202EF9D21887C06008E77B9 /* VehiclesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesViewController.swift; sourceTree = "<group>"; };
 		A202EF9F21887C0C008E77B9 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +36,7 @@
 		A20F829F216D349100EDE977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A20F82A2216D349100EDE977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A20F82A4216D349100EDE977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23710ED21F5C8FE007EE41D /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		A2A3F96121E78FED00435053 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		A2B5D68221B500ED004528FC /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		A2C05AC321EB18CE009DEBE6 /* Bike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
@@ -41,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B1723A852915320FBCD343F /* Pods_GoBikes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52D9ECF1B0BED196FABB3C63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F04E32A78704817A9A1C6FB /* Pods_GoBikes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A20F828A216D348F00EDE977 = {
 			isa = PBXGroup;
 			children = (
 				A20F8295216D348F00EDE977 /* GoBikes */,
 				A20F8294216D348F00EDE977 /* Products */,
+				C2AAC5AC2B42605543AB07DC /* Pods */,
+				52D9ECF1B0BED196FABB3C63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +85,7 @@
 			children = (
 				A20F8296216D348F00EDE977 /* AppDelegate.swift */,
 				A20F829C216D348F00EDE977 /* Main.storyboard */,
+				A23710ED21F5C8FE007EE41D /* SideMenuViewController.swift */,
 				A2A3F96121E78FED00435053 /* NotificationsViewController.swift */,
 				A202EF9B21887BE9008E77B9 /* HomeViewController.swift */,
 				A202EF9D21887C06008E77B9 /* VehiclesViewController.swift */,
@@ -82,6 +100,15 @@
 			path = GoBikes;
 			sourceTree = "<group>";
 		};
+		C2AAC5AC2B42605543AB07DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				074298DF44D1322967F1A07D /* Pods-GoBikes.debug.xcconfig */,
+				21A7871BDAF07E10236637CB /* Pods-GoBikes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A20F82BD216D349100EDE977 /* Build configuration list for PBXNativeTarget "GoBikes" */;
 			buildPhases = (
+				8F2297F6FDE64A1EE46F9F2E /* [CP] Check Pods Manifest.lock */,
 				A20F828F216D348F00EDE977 /* Sources */,
 				A20F8290216D348F00EDE977 /* Frameworks */,
 				A20F8291216D348F00EDE977 /* Resources */,
+				A92273165DCC77D8B346B2F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +177,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8F2297F6FDE64A1EE46F9F2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoBikes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A92273165DCC77D8B346B2F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoBikes/Pods-GoBikes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoBikes/Pods-GoBikes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A20F828F216D348F00EDE977 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -160,6 +236,7 @@
 				A202EFA221887C16008E77B9 /* ProfileViewController.swift in Sources */,
 				A20F8297216D348F00EDE977 /* AppDelegate.swift in Sources */,
 				A2A3F96221E78FED00435053 /* NotificationsViewController.swift in Sources */,
+				A23710EE21F5C8FE007EE41D /* SideMenuViewController.swift in Sources */,
 				A202EF9C21887BE9008E77B9 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +381,7 @@
 		};
 		A20F82BE216D349100EDE977 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 074298DF44D1322967F1A07D /* Pods-GoBikes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -326,6 +404,7 @@
 		};
 		A20F82BF216D349100EDE977 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A7871BDAF07E10236637CB /* Pods-GoBikes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

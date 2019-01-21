@@ -26,20 +26,17 @@ class CartViewController: UIViewController, UICollectionViewDataSource, UICollec
         
         bikes = bikes.sorted { (bike1, bike2) -> Bool in
             if bike1.inCart > bike2.inCart {
-                print("hello")
                 return true
             }
             return false
         }
         
         for bike in bikes {
-            print(bike.name, " ", bike.inCart)
-        }
-        for bike in bikes {
             if (bike.inCart > 0) {
                 count += 1
             }
         }
+        
         return count
     }
     
