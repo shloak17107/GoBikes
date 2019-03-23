@@ -1,0 +1,6 @@
+framework module Pods_GoBikes {
+  umbrella header "Pods-GoBikes-umbrella.h"
+
+  export *
+  module * { export * }
+}

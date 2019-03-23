@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011F5054296C80886EA8712F8CBAFC95 /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B2FD8026413AE249DB1766204D26C4 /* UISideMenuNavigationController.swift */; };
+		09DB15295461829C5B3D07D426F5F0FB /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B809922A60077C81535ED6243D064668 /* SideMenuManager.swift */; };
+		33FF1F80CF25DEAF5FCF4920060D0443 /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954001B39AB14626D44FDF9E55316AD5 /* SideMenuTransition.swift */; };
+		5467E2F50B6BDAF7DDF5B8CA9F8057B2 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D9AC95686EF562F6EED87E6BDB4D27 /* SideMenu-dummy.m */; };
+		8C5E0D084A8D69C612FB0C9A4435CE82 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91583160085BBC49A8B8785E944D42FD /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E93AA311F75C56D42D9254A7D2E838E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		AB09DAEA32208A6B7176AF91AA842CE0 /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF4D34F8A705CFF26692E99867C1C0 /* UITableViewVibrantCell.swift */; };
+		AD4F8AC4FC13037A38B0F5037D686607 /* Pods-GoBikes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61EDE37DF613A9C4FC9BBE71A8F33400 /* Pods-GoBikes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1410303FD9C8A6B2AB1AFD3D03D394F /* Pods-GoBikes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B8FE408F5E88860FFBAFFD2E7DA23C /* Pods-GoBikes-dummy.m */; };
+		C3C26839C2A3F73B56672587677B8705 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93464F3348EF549F2CDAF28DAC50E661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB55B332C37AE746CC8FC710A0E8EA70;
+			remoteInfo = SideMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		309D76A031E72E06844F6240F0612F7B /* Pods-GoBikes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoBikes-Info.plist"; sourceTree = "<group>"; };
+		358D7715A8B72AEE154A9BAFDC830397 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		46B2FD8026413AE249DB1766204D26C4 /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		54B8FE408F5E88860FFBAFFD2E7DA23C /* Pods-GoBikes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoBikes-dummy.m"; sourceTree = "<group>"; };
+		5BF28C3CEA63233B45C8B4353FB96B33 /* Pods-GoBikes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoBikes-acknowledgements.plist"; sourceTree = "<group>"; };
+		61EDE37DF613A9C4FC9BBE71A8F33400 /* Pods-GoBikes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoBikes-umbrella.h"; sourceTree = "<group>"; };
+		69C98D3AB2075EF665F3E68EB899C4D2 /* Pods-GoBikes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoBikes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6EEF4D34F8A705CFF26692E99867C1C0 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		781FD5B359DA1EBB052087F527731311 /* Pods-GoBikes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoBikes.release.xcconfig"; sourceTree = "<group>"; };
+		7BE4039F37EA422BC0C28B93988259CC /* Pods-GoBikes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoBikes.debug.xcconfig"; sourceTree = "<group>"; };
+		7E7767A2BCB5E417ABD48A9AE6C8D0A8 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91583160085BBC49A8B8785E944D42FD /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		954001B39AB14626D44FDF9E55316AD5 /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7163EEBC64CA6091991BE3ECA97A187 /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
+		B5E295B6D4291F51A34C4BE23BC36F3A /* Pods-GoBikes-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoBikes-frameworks.sh"; sourceTree = "<group>"; };
+		B809922A60077C81535ED6243D064668 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		BBA87D2C1789C42E4537548D44114761 /* SideMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SideMenu-Info.plist"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1D9AC95686EF562F6EED87E6BDB4D27 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		D43F8909A6D6A297D0C57B53FCC48BDE /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		F2CED53E6346D89AF8C8FC6AC6FB5B12 /* Pods_GoBikes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GoBikes.framework; path = "Pods-GoBikes.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1EA8B381A0C0B9B4892E934D16F28B /* Pods-GoBikes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GoBikes.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB2EAFC92139DB223E296136B299398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C26839C2A3F73B56672587677B8705 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD47E862F1798A2DF62A5C13278E4FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E93AA311F75C56D42D9254A7D2E838E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		193B498A62911589329D9D81230BD846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2CED53E6346D89AF8C8FC6AC6FB5B12 /* Pods_GoBikes.framework */,
+				7E7767A2BCB5E417ABD48A9AE6C8D0A8 /* SideMenu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7155084DE1C39A2ECAC0E620D169887D /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				B809922A60077C81535ED6243D064668 /* SideMenuManager.swift */,
+				954001B39AB14626D44FDF9E55316AD5 /* SideMenuTransition.swift */,
+				46B2FD8026413AE249DB1766204D26C4 /* UISideMenuNavigationController.swift */,
+				6EEF4D34F8A705CFF26692E99867C1C0 /* UITableViewVibrantCell.swift */,
+				9A36B9E178A2E4C8BD3EBDD0312C0511 /* Support Files */,
+			);
+			name = SideMenu;
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		83D0C43857BE7BA3B47029F87629C870 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7155084DE1C39A2ECAC0E620D169887D /* SideMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		911FDBBC39E6A4A716414DE08B679A2D /* Pods-GoBikes */ = {
+			isa = PBXGroup;
+			children = (
+				FC1EA8B381A0C0B9B4892E934D16F28B /* Pods-GoBikes.modulemap */,
+				69C98D3AB2075EF665F3E68EB899C4D2 /* Pods-GoBikes-acknowledgements.markdown */,
+				5BF28C3CEA63233B45C8B4353FB96B33 /* Pods-GoBikes-acknowledgements.plist */,
+				54B8FE408F5E88860FFBAFFD2E7DA23C /* Pods-GoBikes-dummy.m */,
+				B5E295B6D4291F51A34C4BE23BC36F3A /* Pods-GoBikes-frameworks.sh */,
+				309D76A031E72E06844F6240F0612F7B /* Pods-GoBikes-Info.plist */,
+				61EDE37DF613A9C4FC9BBE71A8F33400 /* Pods-GoBikes-umbrella.h */,
+				7BE4039F37EA422BC0C28B93988259CC /* Pods-GoBikes.debug.xcconfig */,
+				781FD5B359DA1EBB052087F527731311 /* Pods-GoBikes.release.xcconfig */,
+			);
+			name = "Pods-GoBikes";
+			path = "Target Support Files/Pods-GoBikes";
+			sourceTree = "<group>";
+		};
+		9A36B9E178A2E4C8BD3EBDD0312C0511 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D43F8909A6D6A297D0C57B53FCC48BDE /* SideMenu.modulemap */,
+				A7163EEBC64CA6091991BE3ECA97A187 /* SideMenu.xcconfig */,
+				D1D9AC95686EF562F6EED87E6BDB4D27 /* SideMenu-dummy.m */,
+				BBA87D2C1789C42E4537548D44114761 /* SideMenu-Info.plist */,
+				358D7715A8B72AEE154A9BAFDC830397 /* SideMenu-prefix.pch */,
+				91583160085BBC49A8B8785E944D42FD /* SideMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenu";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C444A98327B27BB73D8D41F4C83F5028 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				911FDBBC39E6A4A716414DE08B679A2D /* Pods-GoBikes */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				83D0C43857BE7BA3B47029F87629C870 /* Pods */,
+				193B498A62911589329D9D81230BD846 /* Products */,
+				C444A98327B27BB73D8D41F4C83F5028 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		490BD9359CCE0E59A60D2B0675E3D602 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5E0D084A8D69C612FB0C9A4435CE82 /* SideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC57FEB508DE2AA3890A5075466039E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4F8AC4FC13037A38B0F5037D686607 /* Pods-GoBikes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A049652B0741A37E6E54A765D0F52AF2 /* Pods-GoBikes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB25AEEBAAF88F0D30A17ED769816B6 /* Build configuration list for PBXNativeTarget "Pods-GoBikes" */;
+			buildPhases = (
+				8FC57FEB508DE2AA3890A5075466039E /* Headers */,
+				03F23163FEDB26D8E05EBC72443071A2 /* Sources */,
+				1DB2EAFC92139DB223E296136B299398 /* Frameworks */,
+				B8721C556D83BA19E1EA3D4024100322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77AA4BCA172EE599E24E06AA68ECB583 /* PBXTargetDependency */,
+			);
+			name = "Pods-GoBikes";
+			productName = "Pods-GoBikes";
+			productReference = F2CED53E6346D89AF8C8FC6AC6FB5B12 /* Pods_GoBikes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB55B332C37AE746CC8FC710A0E8EA70 /* SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5306F8CAA767961E690F1B22B89949F9 /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildPhases = (
+				490BD9359CCE0E59A60D2B0675E3D602 /* Headers */,
+				6D96B262B3B41615CFEAA9BFE4896117 /* Sources */,
+				4BD47E862F1798A2DF62A5C13278E4FC /* Frameworks */,
+				F3692F0F974E6BF22A56C362553EB59B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenu;
+			productName = SideMenu;
+			productReference = 7E7767A2BCB5E417ABD48A9AE6C8D0A8 /* SideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 193B498A62911589329D9D81230BD846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A049652B0741A37E6E54A765D0F52AF2 /* Pods-GoBikes */,
+				AB55B332C37AE746CC8FC710A0E8EA70 /* SideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8721C556D83BA19E1EA3D4024100322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3692F0F974E6BF22A56C362553EB59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03F23163FEDB26D8E05EBC72443071A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1410303FD9C8A6B2AB1AFD3D03D394F /* Pods-GoBikes-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D96B262B3B41615CFEAA9BFE4896117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5467E2F50B6BDAF7DDF5B8CA9F8057B2 /* SideMenu-dummy.m in Sources */,
+				09DB15295461829C5B3D07D426F5F0FB /* SideMenuManager.swift in Sources */,
+				33FF1F80CF25DEAF5FCF4920060D0443 /* SideMenuTransition.swift in Sources */,
+				011F5054296C80886EA8712F8CBAFC95 /* UISideMenuNavigationController.swift in Sources */,
+				AB09DAEA32208A6B7176AF91AA842CE0 /* UITableViewVibrantCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77AA4BCA172EE599E24E06AA68ECB583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = AB55B332C37AE746CC8FC710A0E8EA70 /* SideMenu */;
+			targetProxy = 93464F3348EF549F2CDAF28DAC50E661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4093433A309EFE160336AC736594AB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4504304AFEF3D0F6F6EE7D93B042AC3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7163EEBC64CA6091991BE3ECA97A187 /* SideMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		798F8F124A62D0A21FEC24C6B880036A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE4039F37EA422BC0C28B93988259CC /* Pods-GoBikes.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoBikes/Pods-GoBikes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoBikes/Pods-GoBikes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		924D56B1D59CD3049300EAEEA256114E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B6B456AD47617D456802B6F28DD91393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7163EEBC64CA6091991BE3ECA97A187 /* SideMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1FE9096FCB41D7CA15B4DA40DC6BA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 781FD5B359DA1EBB052087F527731311 /* Pods-GoBikes.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoBikes/Pods-GoBikes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoBikes/Pods-GoBikes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4093433A309EFE160336AC736594AB22 /* Debug */,
+				924D56B1D59CD3049300EAEEA256114E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5306F8CAA767961E690F1B22B89949F9 /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B456AD47617D456802B6F28DD91393 /* Debug */,
+				4504304AFEF3D0F6F6EE7D93B042AC3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB25AEEBAAF88F0D30A17ED769816B6 /* Build configuration list for PBXNativeTarget "Pods-GoBikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798F8F124A62D0A21FEC24C6B880036A /* Debug */,
+				E1FE9096FCB41D7CA15B4DA40DC6BA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
